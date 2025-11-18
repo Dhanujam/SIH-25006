@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Reference Number:
-## Name:
+# Date:18/11/2025
+## Reference Number:212224230057
+## Name:DHANUJA M
 ## Problem Title
 SIH 25006: Development of a Digital Farm Management Portal for implementing Biosecurity measures in Pig and Poultry Farms
 ## Problem Description
@@ -41,27 +41,50 @@ Ministry of Fisheries, Animal Husbandry & Dairying
 Department of Animal Husbandry & Dairying (DoAH&D)
 
 ## Proposed Solution
-Remove These Lines
-1. Detailed explanation of the proposed solution
-2. How it addresses the problem
-3. Innovation and uniqueness of the solution
+We propose developing a Digital Farm Biosecurity Management Portal, a comprehensive platform designed to help pig and poultry farmers easily adopt, track, and sustain biosecurity practices on their farms. The system simplifies risk assessment, training, compliance tracking, and disease monitoring through a unified, mobile-friendly interface.
 
 ## Technical Approach
-Remove These Lines
-1. Technologies to be used (e.g. programming languages, frameworks, hardware)
-2. Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b>
+
+Frontend: React.js / Flutter (mobile application)
+Backend: Node.js / Django / FastAPI
+Database: PostgreSQL + Redis (for high-speed caching)
+AI/ML Models: Python (scikit-learn, TensorFlow Lite for on-device inference)
+Geo-Analytics: Leaflet.js / Mapbox for disease and risk mapping
+IoT Integration (optional): ESP32 sensors, MQTT protocol
+Deployment: Docker, Kubernetes, Cloud Platforms (AWS / Azure / NIC MeghRaj)
 
 ## Feasibility and Viability
-Remove These Lines
-1. Analysis of the feasibility of the idea
-2. Potential challenges and risks
-3. Strategies for overcoming these challenges
+
+Technical Feasibility: Uses scalable, modern technologies compatible with cloud infrastructure.
+Economic Feasibility: Low-cost deployment; compatible with existing government digital initiatives.
+Operational Feasibility: Easily adopted by farmers, veterinarians, and government officials.
+Environmental Feasibility: Supports sustainable farming and reduces disease-induced waste.
 
 ## Impact and Benefits
-Remove These Lines
-1. Potential impact on the target audience
-2. Benefits of the solution (social, economic, environmental, etc.)
+## Potential Impact on Target Audience
+Farmers gain practical knowledge, better control of disease risks, and improved productivity.
+Veterinarians receive structured, real-time information for faster decision-making.
+Authorities get reliable data for surveillance and targeted interventions.
+
+## Overall Benefits
+## Social Benefits
+Improved animal health and welfare.
+Reduced zoonotic disease risk in rural populations.
+Empowerment of small and marginal farmers through knowledge access.
+
+## Economic Benefits
+Lower economic losses caused by major disease outbreaks.
+Increased farm productivity and income stability.
+Optimized resource usage and better farm planning.
+
+## Environmental Benefits
+Better waste management and reduced contamination.
+Support for sustainable and responsible livestock farming.
 
 ## Research and References
-Remove These Lines
-1. Details / Links of the reference and research work
+```
+1.https://porcinehealthmanagement.biomedcentral.com/articles/10.1186/s40813-020-00181-z
+2.https://journals.acspublisher.com/index.php/ijvsbt/article/view/8214
+3.https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2023.1231377/full
+4.https://agriculture.vic.gov.au/livestock-and-animals/pigs/biosecurity-plans
+```
